@@ -3,6 +3,8 @@
     <img src="img/logo-black.png" alt="Logo" height="80">
   </a>
 
+ <p>Kelebone Matladi<br>    matladi.kelebone@gmail.com</p>
+  
   <h3 align="center">Developer Internship Tasks</h3>
 
   <p align="center">
