@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link href="styles.css" rel="stylesheet">
+</head>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<body>
+      <img src="logo-black.png" alt="Cybersec" width="600" height="94">
+   </body>
+</nav>
+<h2><a name="Chapter1">Visitors / Patient Covid-19 screening form </a></h2>
+<hr class="rounded">
+	<ul>
+		<h3>Please complete this form prior to proceeding to screening</h3>
+	</ul>
+<form>
+  <label for="TDate">Todays Date:</label><br>
+  <input type="TDate" id="TDate" name="TDate">
+  <br>
+  	<!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
+<style type="text/css">
+.myTable { width:400px;background-color:#eee;border-collapse:collapse; }
+.myTable th { background-color:#000;color:white;width:50%; }
+.myTable td, .myTable th { padding:5px;border:1px solid #000; }
+</style>
+<!-- End Styles -->
+<table class="myTable">
+<tr>
+<th>Personal information</th>
+</tr><br>
+</table>
+<br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="cnumber">Office Number:</label><br>
+  <input type="numeric" id="cnumber" name="cnumber"><br>
+  <label for="eaddress">E-mail address:</label><br>
+  <input type="text" id="eaddress" name="eaddress"><br>
+  <label for="fname">Physical Address:</label><br>
+  <input type="text" id="paddress" name="paddress">
+  <br>
+ <label for="country">Department :</label>
+ <br>
+    <select id="department" name="department">
+      <option value="HR">Human Resource</option>
+      <option value="IT">Information Technology</option>
+    </select>
+</form>
+<br>
+<label for="fname">Date Of Birth:</label><br>
+<br>
+<form name="form1" id="form1" action="/action_page.php">
+  Month: <select name="subject" id="subject">
+    <option value="" selected="selected">January</option>
+	<option value="" selected="selected">February</option>
+	<option value="" selected="selected">March</option>
+	<option value="" selected="selected">April</option>
+	<option value="" selected="selected">May</option>
+	<option value="" selected="selected">June</option>
+	<option value="" selected="selected">July</option>
+	<option value="" selected="selected">August</option>
+	<option value="" selected="selected">September</option>
+	<option value="" selected="selected">October</option>
+	<option value="" selected="selected">November</option>
+	<option value="" selected="selected">December</option>
+  </select>
+  <br><br>
+  Year: <select name="topic" id="topic">
+  <option value="" selected="selected">1970-1979</option>
+    <option value="" selected="selected">1980-1989</option>
+	<option value="" selected="selected">1990-1999</option>
+  </select>
+  <br><br>
+  Date: <select name="chapter" id="chapter">
+    <option value="" selected="selected">1st - 15th</option>
+	<option value="" selected="selected">16th- 30/31st</option>
+  </select>
+  <ul>
+
+</form>
+  	<!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
+<style type="text/css">
+.myTable { width:400px;background-color:#eee;border-collapse:collapse; }
+.myTable th { background-color:#000;color:white;width:50%; }
+.myTable td, .myTable th { padding:5px;border:1px solid #000; }
+</style>
+<!-- End Styles -->
+<table class="myTable">
+<tr>
+<th>Covid-19 Questionnaire</th>
+</tr><br>
+</table><br>
+<label for="TReading">Temperature Readings:</label><br>
+  <input type="text" id="TReading" name="TReading"><br></ul>
+<ul>
+		1.Have you been in contact with anyone who tested positive in the last 14 days: Yes: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p> No: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+
+
+	</ul>
+	<ul>
+		2.Have you travelled out of the province in the last 14 days: Yes: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p> No: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+
+
+	</ul>
+	<ul>
+		3.Do you have any of the following symptoms: Yes: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p> No: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+<ul>
+  <li>Fever</li>
+  <li>Chills</li>
+  <li>Headache</li>
+  <li>Sore Throat</li>
+  <li>Difficulty swallowing</li>
+  <li>loss of sense of taste/smell</li>
+  <li>Runny nose</li>
+  <li>Unexplained fatigue</li>
+  <li>New onset cough</li>
+  <li>Nausea</li>
+</ul>
+</ul>
+<ul>
+		<h3>Declaration</h3><p>I certify that the information I am about to provided is true and complete to
+the best of my knowledge. I am aware that this self declaration statement is
+subject to review and verification and if such information has been falsified I
+may be terminated from Cybersec Clinique internship program for fraud
+and/or perjury.</p>
+<br>
+<h3>Warning:</h3><p> It makes it a criminal offense to make willful
+false statements or misrepresentation to Cybersec Clinique.</p>
+
+<input type="submit" value="Submit">
+	</ul>
+	<body>
+      <img src="LOGO Black.jpg" alt="logoE-BLACK" width="600" height="150">
+   </body>
+ <p>&nbsp;</p>
+  <div class="footer">
+    <div class="footer"><h4> Designed & managed by Kelebone Matladi 2020 all rights reserved<h4> </div>
+    <!-- end .footer --></div>
+<!-- end .container --></div>
+</body>
+</html>
